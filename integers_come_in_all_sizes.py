@@ -1,11 +1,8 @@
-#https://www.hackerrank.com/challenges/python-integers-come-in-all-sizes/problem
+# https://www.hackerrank.com/challenges/python-integers-come-in-all-sizes/problem
 
-# Enter your code here. Read input from STDIN. Print output to STDOUT
+a = 9
+b = 29
+c = 7
+d = 27
 
-a = int(input())
-b = int(input())
-c = int(input())
-d = int(input())
-
-print(pow(a,b) + pow(c,d))
-
+print(a**b + c**d)
